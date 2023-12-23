@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FLAVOURFUSE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <div>
+        <a href="index.html" class="alignleft"> <img src="images/LOGO.jpeg" width="100px" height="100px"
+                alt="FLAVOURFUSE"></a>
+
+        <p class="hello">Hi User!</p>
+    </div>
+</head>
+
+<body>
+    <nav class="navi">
+        <div class="inner__navi">
+            <a href="index.html">Home </a>
+            <a href="about.html">About Us</a>
+            <a href="team.html">Our Team </a>
+            <a href="specials.html">Special</a>
+            <a href="training.html">Training</a>
+            <a href="media.html">Media </a>
+            <a href="faqs.html">FAQs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    <header></header>
+    <form class="contact-form" action="/submit_contact_form" method="post">
+        <fieldset>
+           <legend>Personal Information</legend>
+       
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required placeholder="Your Name" autofocus>
+       
+           <br><br>
+       
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" required placeholder="youremail@example.com">
+       
+           <br><br>
+       
+           <label for="birthday">Birthday:</label>
+           <input type="date" id="birthday" name="birthday">
+        </fieldset>
+       
+        <br><br>
+       
+        <fieldset>
+           <legend>Preferred Contact Method</legend>
+       
+           <label for="contact-method">Preferred Contact Method:</label>
+           <select id="contact-method" name="contact-method">
+             <option value="email">Email</option>
+             <option value="phone">Phone</option>
+           </select>
+       
+           <br><br>
+       
+           <label for="contact-number">Contact Number:</label>
+           <input type="text" id="contact-number" name="contact-number" placeholder="123-456-7890">
+       
+           <br><br>
+       
+           <label for="subscribe-newsletter">Subscribe to our newsletter:</label>
+           <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter">
+        </fieldset>
+       
+        <br><br>
+       
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required placeholder="Type your message here..."></textarea>
+       
+        <br><br>
+       
+        <button type="submit">Submit Request</button>
+        <button type="reset">Reset Form</button>
+       </form>
+</body>
+<footer>
+    <p>&copy; Copyright 1099. All Rights Reserved.</p>
+    <p><a href="mailto:info@flavour.com">Request information</a></p>
+    <p>SHEEN NEGI</p>&nbsp;&nbsp; c0922039</p>
+</footer>
+
+</html>

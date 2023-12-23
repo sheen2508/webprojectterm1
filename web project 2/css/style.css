@@ -1,0 +1,198 @@
+.navi {
+    overflow: hidden;
+    background-color: #283618;
+
+}
+.hello{
+    text-align: right;
+    color:#fff;
+}
+.alignleft {
+	float: left;
+
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align:center;
+    color: rgb(36, 7, 83);
+}
+
+.inner__navi {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+ }
+
+.navi a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navi a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.recipes{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.phrase{
+    color:rgb(8, 9, 82);
+    text-align: center;
+}
+footer {
+    background-color: #283618;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+footer a{
+    color: white;
+}
+
+.top-banner {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #b68e5b;
+    border-radius: 10px 100px /120px 100px;
+  }
+  
+  .top-banner a, .top-banner span {
+    display: inline-block;
+  }
+  
+  .top-banner a {
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #fff;
+    color:#ffffff;
+    text-decoration: underline;
+  }
+  
+  .top-banner a:hover {
+    color: #e4b349;
+  }
+  /* Generic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries for mob viewports */
+@media screen and (max-width: 480px) {
+
+}
+/* Media queries for tab viewports */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+/* Media queries for desktop viewports */
+@media screen and (min-width: 769px) {
+
+}
+figure {
+    margin-bottom: 20px;
+}
+
+.emp {
+    width: 75%;
+}
+
+figcaption {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Style the aside section */
+aside {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+aside p {
+    margin-bottom: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    text-align: center;
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+caption {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    height: 2px;
+    width: 2px;
+}
+
+th {
+    background-color: #e675cd;
+}
+
+tr:nth-child(even) {
+    background-color: #e6abcb;
+}
+
+tr:hover {
+    background-color: #d36b8d;
+}
